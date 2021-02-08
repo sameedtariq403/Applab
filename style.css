@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Poppins', sans-serif ;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.navbar-brand span{
+  color: orange;
+  font-weight: bold;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.position-bg{
+  position: relative;
+}
+.position-content{
+  position: absolute;
+  left: 0;
+  top: 0;bottom: 0;right: 0;
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+.hero-heading{
+  font-size: 50px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+.hero-paragraph{
+  font-size: 18px;
+  padding-bottom: 7px;
+
+}
+.btn{
+  padding: 10px 25px;
+  border-radius: 50px;
+  background: blue;
+}
+.btn2{
+  background: transparent;
+  border: none;
+  outline: none;
+  color: blue;
+}
+.btn2:hover{
+  background: blue;
+  color: white;
+}
+
+
+
+/* Hero end */
+
+.third-section{
+  padding: 50px auto;
+}
+.brand-heading{
+
+padding-top: 40px;
+
+}
+
+.photo {
+    padding: 0px;  
+}
+.F-section{
+  margin: 100px auto;
+}
+.F-sec-content h4{
+  font-size: 22px;
+  line-height: 30px;
+  font-weight:bolder;
+  color: rgb(29, 14, 109);
+}
+.F-sec-content p{
+  font-size: 18px;
+}
+
+.Fifth-sec h4{
+  font-weight: bold;
+  text-transform: capitalize;
+  color: rgb(29, 14, 109);
+
+}
+
+
+.logo-size{
+  width: 80px;
+  
+}
+
+.color1{
+    color: #f77783;
+    font-weight: 800;
+}
+.color2{
+    color: #2563ff;
+    font-weight: 800;
+
+}
+.color3{
+      color: #4d9f6a;
+      font-weight: 800;
+
+}
+
+.bold{
+      font-weight: bolder;
+      text-transform: capitalize;
+      font-size: 40px;
+      color: #11348a;
+}
+
+.sixth{
+      padding: 10px;
+}
+.sixth p{
+      font-size: 16px;
+      line-height: 26px;
+      padding-top: 10px;
+}
+
+.section-seven h4{
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+.section-seven p{
+    padding-left:  60px;
+    padding-right:  60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+
+.second-para7 p{
+  font-size: 18px;
+  font-weight: 500;
+}
+.second-para7 h4{
+  font-weight: bolder;
+}
+
+
+
+/* Eight Section Starting */
+
+
+.eight-section h2{
+  font-weight: bold;
+  font-size: 50px;
+}
+.eight-section p{
+font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+/* EIGHT SECTION ENDING */
+
+
+.Column1{
+  position: relative;
+
+}
+.Column1 h4{
+  font-size: 40px;
+  font-weight: bold;
+}
+.Column1 p{
+  font-size: 20px;
+  
+}
+
+
+/* FOOTER STARTING */
+
+.background-footer{
+  background: rgb(28, 13, 99);
+  width: 100%;
+}
+
+.main-conatiner ul{
+    text-align: center;
+}
+.main-conatiner ul li{
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+}
+.main-conatiner ul li a{
+    color: white;
+}
+.main-conatiner ul li a:hover{
+    text-decoration: none;
+  }
+
+  .main-conatiner h2{
+    font-weight: bold;
+  }
+  .main-conatiner h2 span{
+    color: rgb(255, 115, 0);
+  }
+
+.footer-social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fab::before{
+  padding: 20px;
+}
+
+
+
+
+
+/* FOOTER ENDING */
+
+@media (max-width:769px){
+  .hero-heading{
+      font-size: 30px;
+      font-weight: 600;
+      padding-bottom: 5px;
+}
+.hero-paragraph{
+      font-size: 14px;
+      padding-bottom: 7px;
+
+}
+.Fifth-sec{
+  text-align: center;
+  padding: 20px 30px;
+}
+.second-section{
+  text-align: center;
+}
+.color1{
+  text-align: center;
+}
+.color2{
+  text-align: center;
+}
+.color3{
+  text-align: center;
+}
+.btn{
+  padding: 5px 20px;
+  font-size: 10px;
+}
+.nav-btn{
+  padding: 15px 25px;
+  font-size: 15px !important;
+}
+.brand-heading{
+
+  padding-top: 30px;
+  font-size: 30px ;
+  font-family:'Poppins', sans-serif ;
+  font-weight: bolder;
+  }
+
+
+  .Eight-image{
+    width: 500px !important;
+  }
+  .eight-sec-content{
+    text-align: center;
+  }
+  .eight-section h2{
+    
+    font-size: 30px;
+  }
+  .eight-section{
+    text-align: center;
+  }
+  .ninth-img{
+    margin: none;;
+  }
+}
+@media (max-width:426px){
+  .hero-heading{
+        font-size: 16px;
+        font-weight: 600;
+        padding-bottom: 5px;
+  }
+  .hero-paragraph{
+        font-size: 7px;
+        padding-bottom: 7px;
+
+  }
+  .btn{
+      padding: 5px 16px;
+      font-size: 4px;
+  }
+  .half-hero{
+      max-width: 50%;
+  }
+  .brand-heading{
+
+      padding-top: 10px;
+      font-size: 20px;
+    
+    }
+    .paddimg{
+        padding-top: 10px !important;
+    }
+    .ninth-img{
+      margin: auto;
+    }
+    .main-conatiner ul li{
+      display: block
+  }
+}
+
+@media (max-width:321px){
+  .hero-heading{
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    margin-bottom: 3px;
+
+}
+.hero-paragraph{
+    font-size: 7px;
+    padding-bottom: 2px;
+    margin-bottom: 3px;
+
+}
+.btn{
+    padding: 5px 12px;
+    font-size: 4px;
+    }
+.brand-heading{
+
+    font-size: 12px;
+}
+.paddimg{
+  padding-top: 10px !important;
+}
+.heading-brand{
+  padding: 10px !important;
+}
+.fab::before{
+  padding: 10px;
+}
+}
